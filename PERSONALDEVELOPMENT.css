@@ -35,24 +35,198 @@ ul {
     opacity: 0.5;
 }
 
-.first_part,.second_part,.third_part,.fourth_part{
+
+
+
+
+.a,.e,.d,.g{
   float: left;
+margin-top: 30px;
+margin-bottom: 30px;
+position: relative;
+}
+
+
+
+.first_part,.second_part,.third_part,.fifth_part,.thirdes_part{
+  margin-left: 260px;
+  text-decoration: none;
+  color: black;
+  font-size: large;
+  
+
+}
+
+.first_part::after{
+  content: '';
+  position: absolute;
+  margin-bottom: -5px;
+  border-radius: 20%;
+  height: 4px;
+  background-color: #2926ff;
+  width: 0;
+  left: 93%;
+  bottom: 0;
+  transform: translateX(-50%);
+  transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+}
+
+.first_part:hover { color: #4355fc; }
+.first_part:hover::after { width: 40px; }
+
+.second_part::after{
+  content: '';
+  position: absolute;
+  margin-bottom: -5px;
+  border-radius: 20%;
+  height: 4px;
+  background-color: #2926ff;
+  width: 0;
+  left: 92%;
+  bottom: 0;
+  transform: translateX(-50%);
+  transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+}
+.second_part:hover { color: #4355fc; }
+.second_part:hover::after { width: 68px; }
+
+
+
+.thirdes_part::after{
+  content: '';
+  position: absolute;
+  margin-bottom: -5px;
+  border-radius: 20%;
+  height: 4px;
+  background-color: #2926ff;
+  width: 0;
+  left: 93%;
+  bottom: 0;
+  transform: translateX(-50%);
+  transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+}
+
+.thirdes_part:hover { color: #4355fc; }
+.thirdes_part:hover::after { width: 50px; }
+
+.fifth_part::after{
+  content: '';
+  position: absolute;
+  margin-bottom: -5px;
+  border-radius: 20%;
+  height: 4px;
+  background-color: #2926ff;
+  width: 0;
+  left: 84%;
+  bottom: 0;
+  transform: translateX(-50%);
+  transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+}
+
+.fifth_part:hover { color: #4355fc; }
+.fifth_part:hover::after { width: 110px; }
+
+
+.fifth_part{
+  
+  margin-left: 230px;
+  text-decoration: none;
+  color: black;
+  font-size: large;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.bos{
+  position: absolute;
 }
 
 .employee{
+  position: relative;
+  top:-700px;
+  left:70%;
   width: 250px;
   height: 200px;
-  background-color: rgb(42, 44, 165);
+  background-color: rgb(91, 156, 231);
+}
+.bos_one{
+  text-align: center;
+  padding-top: 30px;
 }
 
+.bos_but{
+  width: 125px;
+  height: 30px;
+  margin-top: 30px;
+  margin-left: 60px;
+  font-size: large;
+  border: 0.5px;
+  border-radius: 3%;
+}
+
+.bos_but:hover{
+  background: linear-gradient(rgba(0, 0, 255, 0.295), pink);
+  border: 0.5px;
+}
 .job{
+  position: relative;
+  top:-695px;
+  left:70%;
   width: 250px;
   height: 200px;
-  background-color: brown;
+  background-color: rgb(91, 156, 231);
+}
+.job_one{
+  text-align: center;
+  padding-top: 40px;
 }
 
+.job_but{
+  width: 125px;
+  height: 30px;
+  margin-top: 40px;
+  margin-left: 60px;
+  font-size: large;
+  border: 0.5px;
+  border-radius: 3%;
+}
+.job_but:hover{
+  background: linear-gradient(rgba(0, 0, 255, 0.295), pink);
+  border: 0.5px;
+}
 .informacja_PD{
+  position: relative;
+  top:-685px;
+  left:70%;
   width: 250px;
   height: 200px;
-  background-color: brown;
+  background-color: rgb(91, 156, 231);
+}
+
+.PD_one{
+  text-align: center;
+  padding-top: 40px;
+}
+
+.PD_but{
+  width: 155px;
+  height: 50px;
+  font-size: large;
+  margin-top: 40px;
+  margin-left: 50px; 
+  border: 0.5px;
+  border-radius: 3%;
+}
+.PD_but:hover{
+  background: linear-gradient(rgba(0, 0, 255, 0.295), pink);
+  border: 0.5px;
 }
