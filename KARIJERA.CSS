@@ -1,0 +1,129 @@
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1600px; 
+ }
+
+header,
+main,
+footer{
+    overflow-x: hidden;
+}
+
+.mv{
+    text-decoration: none;
+    color: black;
+   }
+
+ul {
+    padding-left: 0;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  .line{
+    border-bottom: 1px solid;
+  }
+
+  .big{
+    text-align: center;
+
+  }
+
+  .a,.e,.d,.g{
+    float: left;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  }
+  
+  
+  
+  .first_part,.second_part,.third_part,.fifth_part,.thirdes_part{
+    margin-left: 260px;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    
+  
+  }
+  
+  .first_part::after{
+    content: '';
+    position: absolute;
+    margin-bottom: -5px;
+    border-radius: 20%;
+    height: 4px;
+    background-color: #2926ff;
+    width: 0;
+    left: 93%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+  }
+  
+  .first_part:hover { color: #4355fc; }
+  .first_part:hover::after { width: 40px; }
+  
+  .second_part::after{
+    content: '';
+    position: absolute;
+    margin-bottom: -5px;
+    border-radius: 20%;
+    height: 4px;
+    background-color: #2926ff;
+    width: 0;
+    left: 92%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+  }
+  .second_part:hover { color: #4355fc; }
+  .second_part:hover::after { width: 68px; }
+  
+  
+  
+  .thirdes_part::after{
+    content: '';
+    position: absolute;
+    margin-bottom: -5px;
+    border-radius: 20%;
+    height: 4px;
+    background-color: #2926ff;
+    width: 0;
+    left: 93%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+  }
+  
+  .thirdes_part:hover { color: #4355fc; }
+  .thirdes_part:hover::after { width: 50px; }
+  
+  .fifth_part::after{
+    content: '';
+    position: absolute;
+    margin-bottom: -5px;
+    border-radius: 20%;
+    height: 4px;
+    background-color: #2926ff;
+    width: 0;
+    left: 84%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) all;
+  }
+  
+  .fifth_part:hover { color: #4355fc; }
+  .fifth_part:hover::after { width: 110px; }
+  
+  
+  .fifth_part{
+    
+    margin-left: 230px;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+  }

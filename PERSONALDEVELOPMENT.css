@@ -35,7 +35,12 @@ ul {
     opacity: 0.5;
 }
 
-
+.mn{
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: white;
+}
 
 
 
