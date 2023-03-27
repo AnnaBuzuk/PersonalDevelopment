@@ -139,3 +139,63 @@ position: relative;
   color: black;
   font-size: large;
 }
+
+.streak{
+  position: relative;
+}
+
+.easy{
+  color: rgb(34, 4, 143);
+  font-size: 48px;
+}
+
+.strip{
+  background-color: #090799de;
+  width:600px;
+  height: 3px;
+  margin-left: 0px;
+  margin-bottom: 50px;
+}
+
+.strip_one{
+  position: absolute;
+  top: 145px;
+  left: 25px;
+  background-color: #090799de;
+  width:3px;
+  height: 100px;
+  margin-left: 0px;
+  margin-bottom: 50px;
+}
+
+.aesily{
+  font-size: 20px;
+   font-family: Noto Sans, sans-serif;
+  margin-bottom: 70px;
+  margin-left: 50px;
+}
+
+.simply{
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-family: Noto Sans, sans-serif;
+}
+
+.strip_two{
+  background-color: #090799de;
+  width:400px;
+  height: 3px;
+  margin-left: 800px;
+  margin-bottom: 40px;
+}
+
+.readli{
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-family: Noto Sans, sans-serif;
+}
+
+.mild_one{
+  font-size: 20px;
+ 
+}

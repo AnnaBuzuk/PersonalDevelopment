@@ -1,13 +1,15 @@
 body{
     margin-left: auto;
     margin-right: auto;
-    width: 1600px; 
+    width: 1600px;
+    overflow-x: visible;
  }
 
 header,
 main,
 footer{
     overflow-x: hidden;
+    
 }
 
 .mv{
@@ -126,4 +128,47 @@ ul {
     text-decoration: none;
     color: black;
     font-size: large;
+  }
+
+
+  .unit_one{
+    width: 500px;
+    height: 500px;
+    background-color: #4355fc;
+  }
+
+  .unit_two{
+    width: 500px;
+    height: 500px;
+    background-color: #4355fc; 
+  }
+
+  .unit_three{
+    width: 500px;
+    height: 500px;
+    background-color: #4355fc; 
+  }
+
+  .unit_four{
+    width: 500px;
+    height: 500px;
+    background-color: #4355fc;  
+  }
+
+  .unit_five{
+    width: 500px;
+    height: 500px;
+    background-color: #4355fc;
+  }
+
+  .unit_six{
+    width: 500px;
+    height: 500px;
+    background-color: #4355fc;
+  }
+
+  .unit_seven{
+    width: 500px;
+    height: 500px;
+    background-color: #4355fc;
   }
