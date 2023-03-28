@@ -197,5 +197,85 @@ position: relative;
 
 .mild_one{
   font-size: 20px;
+  margin-left: 30px;
  
 }
+
+.mild_two{
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-family: Noto Sans, sans-serif;  
+}
+
+
+.part{
+background-color: #090799de;
+  width:400px;
+  height: 3px;
+  margin-left: 100px;
+  margin-bottom: 40px;
+}
+
+
+  .share{
+  color: rgb(34, 4, 143);
+  font-size: 48px;
+  }
+
+  .share_one{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: Noto Sans, sans-serif;
+  }
+
+  .whole{
+    color: rgb(34, 4, 143);
+    font-size: 48px;
+  }
+
+  .whole_one{
+    color: rgb(34, 4, 143);
+    font-size: 30px;
+  }
+
+  .whole_two{
+    font-size: 20px;
+    margin-left: 30px;
+    font-family: Noto Sans, sans-serif;
+  }
+
+  .total{
+    color: rgb(34, 4, 143);
+    font-size: 48px; 
+  }
+
+
+
+
+
+
+.n{
+  position:relative;
+}
+
+
+
+
+
+
+.total_big{
+position:absolute ;
+top: 1700px;
+left:1100px;
+background-color: #4355fc;
+width: 150px;
+height: 150px;
+border-radius: 50%;
+  }
+
+  .j{
+    padding-top: 17px;
+    text-align: center;
+    font-family: Noto Sans, sans-serif;
+    font-size: 45px; 
+  }
