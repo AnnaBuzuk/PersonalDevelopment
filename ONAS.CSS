@@ -267,7 +267,7 @@ background-color: #090799de;
 position:absolute ;
 top: 1700px;
 left:1100px;
-background-color: #4355fc;
+background-color: #dddde0;
 width: 150px;
 height: 150px;
 border-radius: 50%;
@@ -278,4 +278,48 @@ border-radius: 50%;
     text-align: center;
     font-family: Noto Sans, sans-serif;
     font-size: 45px; 
+  }
+
+  .row_linkcol{
+    position: absolute;
+    top:1725px;
+    left:970px;
+    fill: rgb(34, 4, 143);
+  }
+
+
+
+.row_l{
+  position: absolute;
+    top:1900px;
+    left:1140px;
+    fill: rgb(34, 4, 143);
+}
+
+
+  .k{
+    position:absolute ;
+top: 1700px;
+left:770px;
+background-color: #dddde0;
+width: 150px;
+height: 150px;
+border-radius: 50%;
+  }
+
+  .r{
+    padding-top: 17px;
+    text-align: center;
+    font-family: Noto Sans, sans-serif;
+    font-size: 20px;  
+  }
+
+  .o{
+    position:absolute ;
+    top: 2000px;
+    left:1150px;
+    background-color: #dddde0;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
   }
