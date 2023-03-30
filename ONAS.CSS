@@ -29,23 +29,22 @@ ul {
 
  
     
-.img-overlay{
-    width: 100%;
-    height: 100%;
-    opacity: 0.5;
-}
+/*Header*/
 
-.mn{
+.launch{
   position: sticky;
   top: 0;
   z-index: 2;
   background-color: white;
 }
 
+.launch_one{
+  color: black;
+  text-decoration: none;
+}
 
-
-.a,.e,.d,.g{
-  float: left;
+.onset,.onset_one,.onset_two,.onset_thre{
+float: left;
 margin-top: 30px;
 margin-bottom: 30px;
 position: relative;
@@ -140,6 +139,12 @@ position: relative;
   font-size: large;
 }
 
+
+/*Koniec header*/
+
+
+
+/*Latwosc*/
 .streak{
   position: relative;
 }
@@ -228,6 +233,30 @@ background-color: #090799de;
     font-family: Noto Sans, sans-serif;
   }
 
+
+/*RBH*/
+
+
+.stria{
+  background-color: #090799de;
+  width:400px;
+  height: 3px;
+  margin-left: 0px;
+  margin-top: 20px;
+  margin-bottom: -120px;
+}
+
+.bar{
+  position: relative;
+  top: 340px;
+  left:0;
+  background-color: #090799de;
+  width:5px;
+  height: 150px;
+  margin-left: 0px;
+  margin-bottom: 40px;
+}
+
   .whole{
     color: rgb(34, 4, 143);
     font-size: 48px;
@@ -244,6 +273,12 @@ background-color: #090799de;
     font-family: Noto Sans, sans-serif;
   }
 
+
+
+
+
+  /*Przyklad*/
+
   .total{
     color: rgb(34, 4, 143);
     font-size: 48px; 
@@ -251,75 +286,160 @@ background-color: #090799de;
 
 
 
-
-
-
-.n{
+.midst{
   position:relative;
 }
 
+.paument{
+  font-size: 20px;
+  margin-left: 30px;
+  font-family: Noto Sans, sans-serif; 
+  margin-bottom: 5px;
+}
 
-
-
-
+.payoff{
+  font-size: 20px;
+  margin-left: 30px;
+  font-family: Noto Sans, sans-serif; 
+  margin-bottom: 5px;
+}
 
 .total_big{
 position:absolute ;
-top: 1700px;
-left:1100px;
-background-color: #dddde0;
-width: 150px;
-height: 150px;
+top: 1820px;
+left:1250px;
+background-color: #a818a859;
+width: 100px;
+height: 100px;
 border-radius: 50%;
   }
 
-  .j{
-    padding-top: 17px;
+  .move{
+    padding-top: 13px;
     text-align: center;
     font-family: Noto Sans, sans-serif;
-    font-size: 45px; 
+    font-size: 30px; 
   }
 
   .row_linkcol{
     position: absolute;
-    top:1725px;
-    left:970px;
+    top:1810px;
+    left:1120px;
     fill: rgb(34, 4, 143);
   }
 
 
 
-.row_l{
+.minor{
   position: absolute;
-    top:1900px;
-    left:1140px;
+    top:1950px;
+    left:1255px;
     fill: rgb(34, 4, 143);
 }
 
 
-  .k{
-    position:absolute ;
-top: 1700px;
-left:770px;
+  .corner{
+position:absolute ;
+top: 1800px;
+left:970px;
 background-color: #dddde0;
-width: 150px;
-height: 150px;
+width: 120px;
+height: 120px;
 border-radius: 50%;
   }
 
-  .r{
-    padding-top: 17px;
-    text-align: center;
-    font-family: Noto Sans, sans-serif;
-    font-size: 20px;  
+  .corner:hover,
+  .collaterial:hover,
+  .subsidiary:hover,
+  .piece:hover
+  {
+    background-color: #09079975;
   }
 
-  .o{
+  .corner_one{
+    padding-top: 14px;
+    text-align: center;
+    font-family: Noto Sans, sans-serif;
+    font-size: 18px;  
+  }
+
+  .collaterial{
     position:absolute ;
-    top: 2000px;
-    left:1150px;
+    top: 2070px;
+    left:1250px;
     background-color: #dddde0;
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
   }
+
+
+  .collaterial_one{
+    position: absolute;
+    top:1815px;
+    left:1380px;
+    fill: rgb(34, 4, 143);
+  }
+
+  .collaterial_text{
+    padding-top: 14px;
+    text-align: center;
+    font-family: Noto Sans, sans-serif;
+    font-size: 18px; 
+  }
+
+  .subsidiary{
+    position:absolute ;
+    top: 1800px;
+    left:1500px;
+    background-color: #dddde0;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; 
+  }
+
+  .subsidiary_text{
+    padding-top: 14px;
+    text-align: center;
+    font-family: Noto Sans, sans-serif;
+    font-size: 18px; 
+  }
+
+  .incidental{
+    position: absolute;
+    top: 1695px;px;
+    left:1250px;
+    fill: rgb(34, 4, 143);
+  }
+
+  .piece{
+    position:absolute ;
+    top: 1550px;
+    left:1237px;
+    background-color: #dddde0;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; 
+  }
+
+  .piece_one{
+    padding-top: 10px;
+    text-align: center;
+    font-family: Noto Sans, sans-serif;
+    font-size: 18px; 
+  }
+
+
+  /*rekrytacja*/
+
+.half{
+  color: rgb(34, 4, 143);
+  font-size: 48px;
+}
+
+
+
+
+  /*Sczegoly*/
+
+  /*Futer*/
