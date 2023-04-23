@@ -491,6 +491,212 @@ position: relative;
 }
 
 
+.kjl{
+  height: 600px;
+  position: absolute;
+}
+
+
+.digit{
+position: relative;
+top:-300px ;
+left:50px;
+  margin-left: 200px;
+}
+
+.digit_one{
+  font-size: 30px;
+  text-shadow:
+    -1px -1px #FFF,
+    -2px -2px #FFF,
+    -1px 1px #FFF,
+    -2px 2px #FFF,
+    1px 1px #FFF,
+    2px 2px #FFF,
+    1px -1px #FFF,
+    2px -2px #FFF,
+    -3px -3px 2px #BBB,
+    -3px 3px 2px #BBB,
+    3px 3px 2px #BBB,
+    3px -3px 2px #BBB;
+    color: rgb(7, 70, 122);
+  transition: all 1s;
+}
+.digit_two{
+  font-size: 70px;
+  text-shadow:
+    -1px -1px #FFF,
+    -2px -2px #FFF,
+    -1px 1px #FFF,
+    -2px 2px #FFF,
+    1px 1px #FFF,
+    2px 2px #FFF,
+    1px -1px #FFF,
+    2px -2px #FFF,
+    -3px -3px 2px #BBB,
+    -3px 3px 2px #BBB,
+    3px 3px 2px #BBB,
+    3px -3px 2px #BBB;
+    color: rgb(7, 70, 122);
+  transition: all 1s;
+}
+
+.line_digit{
+  width: 3px;
+  height: 450px;
+ background-color:rgb(7, 70, 122);
+position: relative;
+top: -670px;
+left: 650px;;
+ 
+}
+
+.digit_free{
+  font-size: 35px;
+  text-shadow:
+    -1px -1px #FFF,
+    -2px -2px #FFF,
+    -1px 1px #FFF,
+    -2px 2px #FFF,
+    1px 1px #FFF,
+    2px 2px #FFF,
+    1px -1px #FFF,
+    2px -2px #FFF,
+    -3px -3px 2px #BBB,
+    -3px 3px 2px #BBB,
+    3px 3px 2px #BBB,
+    3px -3px 2px #BBB;
+    color: rgb(7, 70, 122);
+  transition: all 1s;
+}
+
+
+
+
+
+
+.count{
+  position: relative;
+  top: -1150px;
+  left: 750px;
+  font-size: 25px;
+  text-shadow:
+    -1px -1px #FFF,
+    -2px -2px #FFF,
+    -1px 1px #FFF,
+    -2px 2px #FFF,
+    1px 1px #FFF,
+    2px 2px #FFF,
+    1px -1px #FFF,
+    2px -2px #FFF,
+    -3px -3px 2px #BBB,
+    -3px 3px 2px #BBB,
+    3px 3px 2px #BBB,
+    3px -3px 2px #BBB;
+    color: rgb(7, 70, 122);
+  transition: all 1s;
+}
+
+
+
+
+.count_line{
+  width: 750px;
+  height: 3px;
+  position: relative;
+  top: -1150px;
+  left: 680px;
+ background-color:rgb(7, 70, 122)
+}
+
+
+.quanity{
+  position: relative;
+  top: -1150px;
+ left: 750px;
+  font-size: 25px;
+  text-shadow:
+    -1px -1px #FFF,
+    -2px -2px #FFF,
+    -1px 1px #FFF,
+    -2px 2px #FFF,
+    1px 1px #FFF,
+    2px 2px #FFF,
+    1px -1px #FFF,
+    2px -2px #FFF,
+    -3px -3px 2px #BBB,
+    -3px 3px 2px #BBB,
+    3px 3px 2px #BBB,
+    3px -3px 2px #BBB;
+    color: rgb(7, 70, 122);
+  transition: all 1s;
+}
+
+
+.figure{
+  position: relative;
+  top: -2050px;
+ left: 1100px;
+  font-size: 25px;
+  text-shadow:
+    -1px -1px #FFF,
+    -2px -2px #FFF,
+    -1px 1px #FFF,
+    -2px 2px #FFF,
+    1px 1px #FFF,
+    2px 2px #FFF,
+    1px -1px #FFF,
+    2px -2px #FFF,
+    -3px -3px 2px #BBB,
+    -3px 3px 2px #BBB,
+    3px 3px 2px #BBB,
+    3px -3px 2px #BBB;
+    color: rgb(7, 70, 122);
+  transition: all 1s;
+}
+
+.figure_line{
+  width: 3px;
+  height: 450px;
+  position: relative;
+  top: -1580px;
+  left: 1050px;
+ background-color:rgb(7, 70, 122)
+}
+
+.nubr{
+  position: relative;
+  top: -2030px;
+ left: 1100px;
+  font-size: 25px;
+  text-shadow:
+    -1px -1px #FFF,
+    -2px -2px #FFF,
+    -1px 1px #FFF,
+    -2px 2px #FFF,
+    1px 1px #FFF,
+    2px 2px #FFF,
+    1px -1px #FFF,
+    2px -2px #FFF,
+    -3px -3px 2px #BBB,
+    -3px 3px 2px #BBB,
+    3px 3px 2px #BBB,
+    3px -3px 2px #BBB;
+    color: rgb(7, 70, 122);
+  transition: all 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -621,173 +827,28 @@ color: white;
 }
 
 
+.big_foot{
+padding-top: 20px;
+padding-left: 100px;
+  font-size: 45px;
+  font-family: 'Playfair Display', serif;
+  text-shadow:
+      -1px -1px #FFF,
+      -2px -2px #FFF,
+      -1px 1px #FFF,
+      -2px 2px #FFF,
+      1px 1px #FFF,
+      2px 2px #FFF,
+      1px -1px #FFF,
+      2px -2px #FFF,
+      -3px -3px 2px #BBB,
+      -3px 3px 2px #BBB,
+      3px 3px 2px #BBB,
+      3px -3px 2px #BBB;
+    color: rgb(7, 70, 122);
+    transition: all 1s;
+  font-weight: bold;
+  text-decoration: none;
+}
 
 
-
-.container {
-  left: 400px;
-  margin: auto -50px;
-  position: absolute;
-  top: 1200px;
-}
-.swing div {
-  border-radius: 50%;
-  float: left;
-  height: 3em;
-  width: 3em;
-}
-.swing div:nth-of-type(1) {
-  background: -webkit-linear-gradient(left, #068ef7 0%, #0a95ff 100%);
-  background: linear-gradient(to right, #1f5f91 0%, #051b2c 100%);
-}
-.swing div:nth-of-type(2) {
-  background: -webkit-linear-gradient(left, #068ef7  0%, #0a95ff 100%);
-  background: linear-gradient(to right, #1f5f91 0%, #051b2c 100%);
-}
-.swing div:nth-of-type(3) {
-  background: -webkit-linear-gradient(left, #068ef7  0%, #0a95ff 100%);
-  background: linear-gradient(to right, #1f5f91 0%, #051b2c  100%);
-}
-.swing div:nth-of-type(4) {
-  background: -webkit-linear-gradient(left, #068ef7  0%, #0a95ff 6 100%);
-  background: linear-gradient(to right, #1f5f91 0%, #051b2c  100%);
-}
-.swing div:nth-of-type(5) {
-  background: -webkit-linear-gradient(left, #068ef7  0%, #0a95ff  100%);
-  background: linear-gradient(to right, #1f5f91 0%, #051b2c  100%);
-}
-.swing div:nth-of-type(6) {
-  background: -webkit-linear-gradient(left, #068ef7 0%, #0a95ff  100%);
-  background: linear-gradient(to right, #1f5f91  0%, #051b2c   100%);
-}
-.swing div:nth-of-type(7) {
-  background: -webkit-linear-gradient(left, #068ef7 0%, #f0e9e8 100%);
-  background: linear-gradient(to right, #1f5f91 0%, #051b2c   100%);
-}
-.shadow {
-  clear: left;
-  padding-top: 1.5em;
-}
-.shadow div {
-  -webkit-filter: blur(1px);
-  filter: blur(1px);
-  float: left;
-  width: 1em;
-  height: .25em;
-  border-radius: 50%;
-  background: #e3dbd2;
-}
-.shadow .shadow-l {
-  background-color: rgb(236, 241, 243);
-}
-.shadow .shadow-r {
-  background: rgb(234, 236, 238);;
-}
-@-webkit-keyframes ball-l {
-  0%, 50% {
-    -webkit-transform: rotate(0) translateX(0);
-    transform: rotate(0) translateX(0);
-  }
-  100% {
-    -webkit-transform: rotate(50deg) translateX(-2.5em);
-    transform: rotate(50deg) translateX(-2.5em);
-  }
-}
-@keyframes ball-l {
-  0%, 50% {
-    -webkit-transform: rotate(0) translate(0);
-    transform: rotate(0) translateX(0);
-  }
-  100% {
-    -webkit-transform: rotate(50deg) translateX(-2.5em);
-    transform: rotate(50deg) translateX(-2.5em);
-  }
-}
-@-webkit-keyframes ball-r {
-  0% {
-    -webkit-transform: rotate(-50deg) translateX(2.5em);
-    transform: rotate(-50deg) translateX(2.5em);
-  }
-  50%,
-  100% {
-    -webkit-transform: rotate(0) translateX(0);
-    transform: rotate(0) translateX(0);
-  }
-}
-@keyframes ball-r {
-  0% {
-    -webkit-transform: rotate(-50deg) translateX(2.5em);
-    transform: rotate(-50deg) translateX(2.5em);
-  }
-  50%,
-  100% {
-    -webkit-transform: rotate(0) translateX(0);
-    transform: rotate(0) translateX(0)
-  }
-}
-@-webkit-keyframes shadow-l-n {
-  0%, 50% {
-    opacity: .5;
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-  }
-  100% {
-    opacity: .125;
-    -webkit-transform: translateX(-1.57em);
-    transform: translateX(-1.75em);
-  }
-}
-@keyframes shadow-l-n {
-  0%, 50% {
-    opacity: .5;
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-  }
-  100% {
-    opacity: .125;
-    -webkit-transform: translateX(-1.75);
-    transform: translateX(-1.75em);
-  }
-}
-@-webkit-keyframes shadow-r-n {
-  0% {
-    opacity: .125;
-    -webkit-transform: translateX(1.75em);
-    transform: translateX(1.75em);
-  }
-  50%,
-  100% {
-    opacity: .5;
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-  }
-}
-@keyframes shadow-r-n {
-  0% {
-    opacity: .125;
-    -webkit-transform: translateX(1.75em);
-    transform: translateX(1.75em);
-  }
-  50%,
-  100% {
-    opacity: .5;
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-  }
-}
-.swing-l {
-  -webkit-animation: ball-l .425s ease-in-out infinite alternate;
-  animation: ball-l .425s ease-in-out infinite alternate;
-}
-.swing-r {
-  -webkit-animation: ball-r .425s ease-in-out infinite alternate;
-  animation: ball-r .425s ease-in-out infinite alternate;
-}
-.shadow-l {
-  -webkit-animation: shadow-l-n .425s ease-in-out infinite alternate;
-  animation: shadow-l-n .425s ease-in-out infinite alternate;
-}
-.shadow-r {
-  -webkit-animation: shadow-r-n .425s ease-in-out infinite alternate;
-  animation: shadow-r-n .425s ease-in-out infinite alternate;
-}

@@ -177,3 +177,136 @@ position: relative;
 
 
 
+.appellation_one{
+  font-size: 25px;
+}
+
+
+.info{
+  position: relative;
+  width: 1600px;
+  height: 400px;
+  background-color: rgb(36, 119, 167);
+  margin-top: 150px;
+}
+
+.info_one{
+position: absolute;
+top: 0px;
+left: 50px;
+
+}
+
+.guide{
+  position: absolute;
+  top: 50px;
+  left: 1000px;
+}
+
+.guide_one{
+position: absolute;
+top: 90px;
+left: 1000px;
+fill: white;
+}
+
+.guide_two{
+  width: 200px;
+  position: absolute;
+top: 100px;
+left: 1100px;
+color: white;
+  font-size:25px;
+  text-decoration: none;
+}
+
+.case{ 
+  position: absolute;
+  width: 250px;
+  height: 0px;
+  top: 220px;
+  left: 50px;
+  color: white;
+  font-size:25px;
+}
+
+
+.case_one{
+  position: absolute;
+  top: 235px;
+  left: 280px;
+  fill: rgb(255, 255, 255);
+}
+
+
+.case_two{
+  position: absolute;
+  top: 247px;
+  left: 340px;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+.farther{
+  position: absolute;
+  top: 235px;
+  left: 820px;
+  fill: rgb(5, 45, 97);
+  
+}
+
+.farther_one{
+  position: absolute;
+  top: 245px;
+  left: 890px; 
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+.beyond{
+  position: absolute;
+  top: 235px;
+  left: 1100px; 
+}
+
+.beyond_one{
+  position: absolute;
+  top: 245px;
+  left: 1160px; 
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+.outside{
+  position: absolute;
+  top: 235px;
+  left: 1300px;
+}
+
+.outside_one{
+  position: absolute;
+  top: 250px;
+  left: 1370px;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+
+.f{
+  position: absolute;
+  top: 1000px;
+  left: 650px;
+  width: 450px;
+  height: 310px;
+  border-radius: 50%;
+  background-color: rgb(36, 119, 167);
+}
+
+
+
+
+
