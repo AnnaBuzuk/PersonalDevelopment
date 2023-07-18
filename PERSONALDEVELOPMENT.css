@@ -19,8 +19,11 @@ ul {
     list-style-type: none;
   }
 
-
-
+.logo{
+  position: absolute;
+  top: -15px;
+  left: 0;
+}
 
 
   .line{
@@ -29,6 +32,7 @@ ul {
   }
 
   .big{
+    position: relative;
 text-align: center;
 font-size: 75px;
 font-family: 'Playfair Display', serif;
@@ -810,6 +814,24 @@ color: white;
   position: absolute;
   top: 250px;
   left: 1370px;
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+}
+
+.outside_two{
+  position: absolute;
+  top: 300px;
+  left: 275px;
+  fill: white;
+
+}
+
+
+.outside_tu_two{
+  position: absolute;
+  top: 300px;
+  left: 350px;
   font-size: 25px;
   color: white;
   text-decoration: none;
