@@ -159,7 +159,7 @@ position: relative;
 
   /*koniec shapki*/
 
-/*blok1*/
+/*elektryk*/
 
 
   .unit_one{
@@ -180,7 +180,9 @@ position: relative;
 
 .unit_one_info{
    position: relative;
-  top: -350px;
+  top: -900px ;
+  left:0 ;
+   top: -350px;
   left: 250px;
   width: 400px;
   height: 230px;
@@ -198,50 +200,50 @@ text-decoration: none;
 font-size: 40px;
 color: white;
 }
-
+/*koniec elektryk*/
 /*slusarz*/
 
-
+.two_boss{
+  position: absolute;
+}
 .unit_two{
-  width: 500px;
+  position: relative;
+  top: -704px;
+  left: 800px ;
   padding-left: 45px;
   padding-top: 10px;
   margin-bottom: 50px;
-  display: inline-block;
-  margin-right: 110px;
-  margin-left: 170px;
 }
 
 .unit_two_photo{
-  position: relative;
-  top: -755px;
-  left: 750px;
+  top: -955px;
+  left: 950px;
 }
 
 
 
 
-    .unit_two_info{
-      
+  .unit_two_info{
   position: relative;
-  top: -350px;
-  left: 250px;
+  top: -1040px;
+  left: 930px;
   width: 400px;
   height: 230px;
   backdrop-filter: blur(15px);
-    }
+  }
 
 
 
 
-.appellationtwo{
-  position: relative;
- top: -800px;
- left: 780px;
- font-weight: bold;
-text-decoration: none;
+.appellationtwoa{
+text-align: center;
+font-weight: bold;
 font-size: 40px;
-color: rgb(20, 19, 19);
+text-decoration: none;
+color:white;
+position: relative;
+top: 50px;
+left: 15px;
 }
 
 
@@ -611,15 +613,7 @@ right: 20px;
 
     /*Blok2*/
 
-  .unit_two{
-    width: 1600px;
-    height: 500px;
-    background-color: rgb(36, 119, 167);
-   position: relative;
-   padding-left: 45px;
-   padding-top: 10px;
-   margin-top: 55px;
-  }
+  
 
 
 
