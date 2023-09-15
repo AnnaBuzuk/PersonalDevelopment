@@ -1,25 +1,26 @@
 body{
-    margin-left: auto;
-    margin-right: auto;
-    width: 1600px;  
-    height: auto;
-    overflow-x:hidden;
-    
- }
+margin-left: auto;
+margin-right: auto;
+width: 1600px;  
+height: auto;
+overflow-x:hidden;  
+}
 
 header,
 main,
 footer{
   overflow-x: hidden;
 }
-
 ul {
-  padding-left: 0;
-  }
+padding-left: 0;
+}
 
-  li {
-  list-style-type: none;
-  }
+li {
+list-style-type: none;
+}
+
+
+
 
 /*header*/
 
@@ -569,172 +570,172 @@ left: 650px;;
 .info{
   position: relative;
   width: 1600px;
-  height: 400px;
+  height: 350px;
   background-color: rgb(17, 63, 90);
-  margin-top: 150px;
-}
-
-
-.big_foot{
+  margin-top: 250px;
+  overflow: hidden;
+  }
+  
+  
+  .big_foot{
   margin-top: -10px;
-  padding-left: 100px;
+  padding-left: 180px;
   font-size: 40px;
   font-family: 'Playfair Display', serif;
   color: white;
   text-decoration: none;
   }
+    
   
-
-
-
+  
+  
   .guide_one{
-    position: absolute;
-    top: 30px;
-    left: 800px;
-    fill: white;
-    }
-    
-    .guide_two{
-      width: 200px;
-      position: absolute;
-      top: 45px;
-      left: 900px;
-      color: white;
-      font-size:25px;
-      text-decoration: none;
-    }
-
-    .case{ 
-      position: absolute;
-      width: 250px;
-      height: 0px;
-      top: 120px;
-      left: 50px;
-      color: white;
-      font-size:25px;
-    }
-    
-    
-    .case_one{
-      position: absolute;
-      top: 135px;
-      left: 280px;
-      fill: rgb(255, 255, 255);
-    }
-    
-    
-    .case_two{
-      position: absolute;
-      top: 147px;
-      left: 340px;
-      font-size: 25px;
-      color: white;
-      text-decoration: none;
-    }
-    
-.farther{
   position: absolute;
-  top: 135px;
-  left: 820px;
-  fill: rgb(69, 126, 231);
+  top: 35px;
+  left: 950px;
+  fill: white;
+  }
+      
+  .guide_two{
+  width: 200px;
+  position: absolute;
+  top: 45px;
+  left: 1020px;
+  color: white;
+  font-size:25px;
+  text-decoration: none;
+  }
   
-}
-
-.farther_one{
+  .case{ 
   position: absolute;
-  top: 145px;
-  left: 890px; 
-  font-size: 25px;
+  width: 250px;
+  height: 0px;
+  top: 120px;
+  left: 180px;
   color: white;
-  text-decoration: none;
-}
-
-.beyond{
+  font-size:25px;
+  }
+      
+      
+  .case_one{
   position: absolute;
   top: 135px;
-  left: 1100px; 
-}
-
-.beyond_one{
+  left: 400px;
+  fill: rgb(255, 255, 255);
+  }
+      
+      
+  .case_two{
   position: absolute;
-  top: 145px;
-  left: 1160px; 
+  top: 147px;
+  left: 480px;
   font-size: 25px;
   color: white;
   text-decoration: none;
-}
-    
-
-
-.outside{
+  }
+      
+  .farther{
+  position: absolute;
+  top: 135px;
+  left: 950px;
+  fill: rgb(69, 126, 231); 
+  }
+  
+  .farther_one{
+  position: absolute;
+  top: 145px;
+  left: 1030px; 
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  }
+  
+  .beyond{
+  position: absolute;
+  top: 135px;
+  left: 1180px; 
+  }
+  
+  .beyond_one{
+  position: absolute;
+  top: 145px;
+  left: 1260px; 
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  }
+      
+  
+  
+  .outside{
   position: absolute;
   top: 240px;
-  left: 825px;
-}
-
-.outside_one{
+  left: 950px;
+  }
+  
+  .outside_one{
   position: absolute;
   top: 250px;
-  left: 895px;
+  left: 1030px;
   font-size: 25px;
   color: white;
   text-decoration: none;
-}
-
-
-
-
-.outside_two{
+  }
+  
+  
+  .outside_two{
   position: absolute;
   top: 250px;
-  left: 280px;
+  left: 400px;
   fill: white;
-
-}
-
-.outside_tu_two{
+  
+  }
+  
+  .outside_tu_two{
   position: absolute;
   top: 260px;
-  left: 350px;
+  left: 480px;
   font-size: 25px;
   color: white;
   text-decoration: none;
-}
-
-
-.outside_free{
+  }
+  
+  
+  .outside_free{
   position: absolute;
   top: 240px;
-  left: 1100px;
+  left: 1180px;
   fill: rgb(10, 9, 9);
-}
-
-.outside_to_free{
+  }
+  
+  .outside_to_free{
   position: absolute;
   top: 250px;
-  left: 1155px;
+  left: 1255px;
   font-size: 25px;
   color: white;
   text-decoration: none;
-} 
-
-.outside_vor{
+  } 
+  
+  .outside_vor{
   position: absolute;
-  top: 240px;
-  left: 550px;
+  top: 245px;
+  left: 650px;
   fill: rgb(240, 235, 241);
-}
-
-
-.outside_to_vor{
+  }
+  
+  
+  .outside_to_vor{
   position: absolute;
-  top: 250px;
-  left: 620px;
+  top: 260px;
+  left: 720px;
   font-size: 25px;
   color: white;
   text-decoration: none;
-}
-
+  }
+  
+  
+  /*koniec-footer*/
 
 
 
