@@ -362,15 +362,10 @@ padding-top: 10px;
 margin-bottom: 50px;
 }
 
-.unit_five_photo{
-top: -204px;
-}
-
-
 .unit_five_info{
 position: relative;
-top: -20px;
-left: 230px;
+top: 0px;
+left: 300px;
 width: 400px;
 height: 230px;
 backdrop-filter: blur(15px);
@@ -379,10 +374,10 @@ backdrop-filter: blur(15px);
 .appellationfive{
 font-weight: bold;
 font-size: 40px;
-text-decoration: none;
+
 color:white;
 position: relative;
-top: 20px;
+top: 80px;
 left: 15px;
 }
 
